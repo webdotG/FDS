@@ -3,15 +3,21 @@
 
     header {
         min-width: 292px;
+        height: 500px;
         padding-left: 14px;
         padding-right: 14px;
-        padding-top: 20px;
         display: flex;
         justify-content: center;
-        background-color: black;
+        background-image: url("../img/header__background-img.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .logo--header{
+    .background-black{
+        background: black;
+    }
+    .logo--header {
+        padding-top: 20px;
         margin-bottom: 30px;
     }
 
@@ -21,34 +27,38 @@
         flex-wrap: wrap;
         align-items: baseline;
         position: relative;
+        z-index: 1;
     }
 
-    .nav-list{
+    .nav-list {
         width: 308px;
         padding-left: 14px;
         position: absolute;
         top: 84px;
         right: -338px;
         background: black;
-        transition: right ease 0.5s;
+        transition: right ease 0.3s;
         visibility: hidden;
     }
+
     .nav-list--show {
         /*flex-basis: 100%;*/
         visibility: visible;
         right: -15px;
     }
 
-    .nav-list__item{
+    .nav-list__item {
         padding-bottom: 12px;
         position: relative;
     }
-    .nav-list__item:nth-child(3){
+
+    .nav-list__item:nth-child(3) {
         padding-top: 12px;
         padding-bottom: 12px;
     }
+
     .nav-list__item:nth-child(3)::before,
-    .nav-list__item:nth-child(3)::after{
+    .nav-list__item:nth-child(3)::after {
         content: "";
         width: 292px;
         height: 1px;
@@ -56,30 +66,37 @@
         position: absolute;
         background: #4D4D4D;
     }
-    .nav-list__item:nth-child(3)::before{
+
+    .nav-list__item:nth-child(3)::before {
         top: 0;
     }
-    .nav-list__item:nth-child(3)::after{
+
+    .nav-list__item:nth-child(3)::after {
         bottom: 0;
     }
-    .nav-list__item:nth-child(4){
+
+    .nav-list__item:nth-child(4) {
         padding-top: 12px;
     }
-    .nav-list__item:last-child{
+
+    .nav-list__item:last-child {
         margin-bottom: 41px;
     }
+
     .nav-list__link {
         text-transform: uppercase;
         color: #D9D9D9;
     }
 
-    .sub-menu__item{
+    .sub-menu__item {
         padding-bottom: 12px;
     }
-    .sub-menu__item:first-child{
+
+    .sub-menu__item:first-child {
         padding-top: 12px;
     }
-    .sub-menu__item:last-child{
+
+    .sub-menu__item:last-child {
         padding-bottom: 0;
     }
 
@@ -92,6 +109,7 @@
 }
 
 /*-----------------------------NAV BTN STYLE----------------------------*/
+
 .nav-btn {
     display: block;
     width: 38px;
