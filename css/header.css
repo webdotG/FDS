@@ -20,10 +20,23 @@
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
+        position: relative;
     }
 
-    .nav-list {
-        flex-basis: 100%;
+    .nav-list{
+        width: 308px;
+        padding-left: 14px;
+        position: absolute;
+        top: 84px;
+        right: -338px;
+        background: black;
+        transition: right ease 0.5s;
+        visibility: hidden;
+    }
+    .nav-list--show {
+        /*flex-basis: 100%;*/
+        visibility: visible;
+        right: -15px;
     }
 
     .nav-list__item{
@@ -37,7 +50,7 @@
     .nav-list__item:nth-child(3)::before,
     .nav-list__item:nth-child(3)::after{
         content: "";
-        width: 100%;
+        width: 292px;
         height: 1px;
         display: block;
         position: absolute;
