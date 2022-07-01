@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>FDS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    <nav class="navigation">
+        <img class="logo--header" src="img/logo__mobile.png" width="40" height="55" alt="logo studio">
+        <button class="nav-btn" onclick="myFunction(this)">
+            <span class="nab-btn__line-one"></span>
+            <span class="nav-btn__line-two"></span>
+        </button>
+        <ul class="nav-list">
+            <li class="nav-list__item"><a class="nav-list__link" href="">Кейсы</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="">О нас</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="">Услуги</a>
+                <ul class="sub-menu">
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Создание сайтов</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Программные работы</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">SEO-продвижение</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Дизайн</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Полиграфия</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Фото-продакшен</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Видео-продакшен</a></li>
+                    <li class="sub-menu__item"><a class="sub-menu__link" href="">Разработка рекламных<br>
+                        стратегий и проектов</a></li>
+                </ul>
+            </li>
+            <li class="nav-list__item"><a class="nav-list__link" href="">Контакты</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="">Заполнить бриф</a></li>
+        </ul>
+    </nav>
+</header>
 
+<script src="js/burger__btn.js"></script>
 </body>
 </html>

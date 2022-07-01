@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "helvetic__black";
+    src: url(../fonts/helveticaneuecyr_black.woff2) format("woff2"), url(../fonts/helveticaneuecyr_black.woff) format("woff") ;
+}
+
+@font-face {
+    font-family: "helvetic__roman";
+    src: url(../fonts/helveticaneuecyr_roman.woff2) format("woff2"), url(../fonts/helveticaneuecyr_roman.woff) format("woff") ;
+}
+
+@font-face {
+    font-family: "helvetic__thin";
+    src: url(../fonts/helveticaneuecyr_thin.woff2) format("woff2"), url(../fonts/helveticaneuecyr_thin.woff) format("woff") ;
+}
+
+@font-face {
+    font-family: "helvetic__ultralight";
+    src: url(../fonts/helveticaneuecyr_ultralight.woff2) format("woff2"), url(../fonts/helveticaneuecyr_ultralight.woff) format("woff") ;
+}
+
+@font-face {
+    font-family: "helvetic__ultralightitalic";
+    src: url(../fonts/helveticaneuecyr_ultralightitalic.woff2) format("woff2"), url(../fonts/helveticaneuecyr_ultralightitalic.woff) format("woff") ;
+}
+
+
+body {
+    font-family: "helvetic__black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1 {
+    font-family: "helvetic__black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 105%;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "helvetic__black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "helvetic__black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: "helvetic__black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    text-transform: uppercase;
+}
