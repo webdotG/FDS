@@ -3,16 +3,22 @@
 .case {
     width: 320px;
     margin: 0 auto;
+    background-color: #0D0D0D;
 }
-.case__title{
+
+.case__title {
     background: #0D0D0D;
     color: white;
 }
+
 .case-list__item {
     width: 288px;
     height: 360px;
     padding-left: 16px;
     padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .case-list__project1 {
@@ -38,16 +44,27 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .case-list__project5 {
     background-image: url("../img/case__back3.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
-.case-btn-list{
+
+.case-list__title {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.case-btn-list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
-.case-btn__btn{
+.case-btn__item{
+    margin-right: 5px;
+}
+.case-btn__btn {
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 1px;
@@ -58,4 +75,6 @@
     background-color: rgba(13, 13, 13, 0.7);;
     border-radius: 200px;
 }
-
+.case__watch-more{
+    color: #EBF5FC;
+}
