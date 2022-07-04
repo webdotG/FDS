@@ -35,20 +35,24 @@
     color: #D9D9D9;
 }
 
-.why-we__list--number{
+.why-we__list--number {
     position: absolute;
     bottom: 20px;
     left: 18px;
 }
+
 .why-we__item:hover .why-we__list--number {
     stroke: #3425E1;
 }
-.why-we__list--number2{
+
+.why-we__list--number2 {
     bottom: 70px;
 }
-.why-we__list--number3{
+
+.why-we__list--number3 {
     bottom: 24px;
 }
-.why-we__list--number4{
+
+.why-we__list--number4 {
     bottom: 70px;
 }
