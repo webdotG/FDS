@@ -1,0 +1,46 @@
+/*----------------------------ABOUT STYLE min-width 320----------------------------*/
+
+
+.about {
+    background: black;
+}
+
+.about__title {
+    font-size: 26px;
+    color: #D9D9D9;
+}
+
+.about__paragraph-first,
+.about__paragraph-seconde {
+    font-size: 14px;
+    line-height: 130%;
+    color: #D9D9D9;
+}
+
+.about-list__item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.about-list__item p{
+    color: white;
+}
+
+.about-list__photo--decor {
+    width: 142px;
+    height: 124px;
+    display: block;
+}
+
+.about-list__item:hover .about-list__photo--decor {
+    stroke: #3425E1;
+}
+
+.about-list__photo--designer {
+    margin-top: -100px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
