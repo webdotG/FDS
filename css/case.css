@@ -1,1 +1,47 @@
 /*----------------------------CASE min-width 320----------------------------*/
+
+.case {
+    width: 320px;
+    margin: 0 auto;
+}
+.case__title{
+    background: #0D0D0D;
+    color: white;
+}
+.case-list__item {
+    width: 288px;
+    height: 360px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.case-list__project1 {
+    background-image: url("../img/case__back1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.case-list__project2 {
+    background-image: url("../img/case__back3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.case-list__project3 {
+    background-image: url("../img/case__back4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.case-list__project4 {
+    background-image: url("../img/case__back1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.case-list__project5 {
+    background-image: url("../img/case__back3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
