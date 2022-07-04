@@ -17,12 +17,19 @@
     color: #D9D9D9;
 }
 
+.about-list {
+    display: flex;
+}
+
 .about-list__item {
+    width: 150px;
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.about-list__item p{
+
+.about-list__item p {
+    width: 142px;
     color: white;
 }
 
@@ -30,6 +37,10 @@
     width: 142px;
     height: 124px;
     display: block;
+}
+
+.about-list__photo--decor-upside-down {
+    transform: rotate(180deg);
 }
 
 .about-list__item:hover .about-list__photo--decor {
@@ -43,4 +54,6 @@
     position: relative;
     z-index: 1;
 }
-
+.about-list__developer .about-list__text-wrapper{
+    order: 3;
+}
