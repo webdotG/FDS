@@ -169,3 +169,6 @@ input[type="file"]::-moz-placeholder {
     box-shadow: 0px 0px 10px rgba(52, 37, 225, 0.5);
     background-color: transparent;
 }
+.contact-us__paragraph-agree{
+    margin: 0;
+}
