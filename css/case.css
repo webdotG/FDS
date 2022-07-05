@@ -75,6 +75,7 @@
     background-color: rgba(13, 13, 13, 0.7);;
     border-radius: 200px;
 }
-.case__watch-more{
-    color: #EBF5FC;
-}
+/*.case__watch-more{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}*/
