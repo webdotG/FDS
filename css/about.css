@@ -4,6 +4,7 @@
 .about {
     min-width: 320px;
     background: #0D0D0D;
+    transition: background-color 1s linear 0s;
 }
 
 .about__title {

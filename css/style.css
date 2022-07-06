@@ -20,3 +20,20 @@ button{
     padding-right: 16px;
     margin: 0 auto;
 }
+
+
+/*
+transition: background-color 1s linear 0s;
+background-color: rgb(13, 13, 13);
+--------------------------------------------------
+transition: background-color 1s linear 0s;
+background-color: rgb(21, 26, 81);
+--------------------------------------------------
+function(e) {
+  if (e.target.closest(".t-site-search-pu__pagination span[page]")) {
+    var t = e.target.closest(".t-site-search-pu__pagination span[page]"),
+      r;
+    t.setAttribute("disabled", "disabled"), I(2, t.getAttribute("page"))
+  }
+}
+*/

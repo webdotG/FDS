@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>FDS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/icon-short__logo.png" type="image/png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -16,7 +17,7 @@
 </head>
 <body>
 <header>
-    <div class="margin-auto">
+    <div id="header" class="margin-auto">
         <nav class="navigation">
             <div class="navigation-control">
                 <img class="logo--header" src="img/logo__mobile.png" width="40" height="55" alt="logo studio">
@@ -54,7 +55,7 @@
     </div>
 </header>
 <main>
-    <section class="about">
+    <section id="about" class="about">
         <div class="margin-auto">
             <h2 class="about__title">Кто займется вашим продвижением?</h2>
             <p class="about__paragraph-first">
@@ -79,7 +80,7 @@
             </ul>
         </div>
     </section>
-    <section class="why-we">
+    <section id="why-we" class="why-we">
         <div class="margin-auto">
             <h2 class="why-we__title">Почему выбирают нас?</h2>
             <ul class="why-we__list">
@@ -143,7 +144,7 @@
             </ul>
         </div>
     </section>
-    <section class="case">
+    <section id="case" class="case">
         <div class="margin-auto">
             <h2 class="case__title">Наши последние проекты</h2>
             <ul class="case-list">
@@ -298,5 +299,7 @@
     </div>
 </footer>
 <script src="js/burger__btn.js"></script>
+<script src="js/color__change.js"></script>
 </body>
-</html>
+
+к каждой секции своя функ с цветами и с уловиями для перемены цвета
