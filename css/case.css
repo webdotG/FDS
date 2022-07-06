@@ -1,8 +1,7 @@
 /*----------------------------CASE min-width 320----------------------------*/
 
 .case {
-    width: 320px;
-    margin: 0 auto;
+    min-width: 320px;
     background-color: #0D0D0D;
 }
 
@@ -61,9 +60,11 @@
     flex-wrap: wrap;
     margin-bottom: 10px;
 }
-.case-btn__item{
+
+.case-btn__item {
     margin-right: 5px;
 }
+
 .case-btn__btn {
     padding-right: 10px;
     padding-left: 10px;
@@ -75,6 +76,7 @@
     background-color: rgba(13, 13, 13, 0.7);;
     border-radius: 200px;
 }
+
 /*.case__watch-more{
     color: #ffffff;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;

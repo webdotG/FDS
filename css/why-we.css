@@ -1,9 +1,6 @@
 /*----------------------------WHY-WE min-width 320----------------------------*/
 .why-we {
-    width: 288px;
-    padding-right: 16px;
-    padding-left: 16px;
-    margin: 0 auto;
+    min-width: 320px;
     background: #151A51;
 }
 

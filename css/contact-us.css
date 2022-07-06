@@ -1,8 +1,5 @@
 .contact-us {
-    width: 288px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
+  min-width: 320px;
     background-color: #0D0D0D;
 }
 

@@ -6,9 +6,11 @@
         height: 500px;
         padding-left: 16px;
         padding-right: 16px;
-        background-image: url("../img/header__back--mobile.jpg");
+     /*   background-image: url("../img/header__back--mobile.jpg");
         background-repeat: no-repeat;
         background-position: center;
+        */
+      background-color: #0D0D0D;
     }
 
     .background-black {
