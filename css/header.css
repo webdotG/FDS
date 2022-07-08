@@ -151,6 +151,10 @@
     color: #D9D9D9;
 }
 
+.header-text__paragraph{
+    color: #EBF5FC;
+}
+
 .visibility-hidden {
     visibility: hidden;
 }
