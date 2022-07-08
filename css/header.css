@@ -35,7 +35,7 @@
         position: absolute;
         top: 84px;
         right: -338px;
-        background:  #0D0D0D;
+        background: #0D0D0D;
         transition: right ease 0.3s;
         visibility: hidden;
     }
@@ -169,7 +169,8 @@
     header {
         min-width: 768px;
         height: 810px;
-        position: relative;
+        position: sticky;
+        z-index: 3;
     }
 
     .header-text {
@@ -177,15 +178,13 @@
     }
 
     .navigation {
-        width: 768px;
         height: 585px;
-        padding-top: 30px;
-        padding-left: 16px;
         display: flex;
         position: fixed;
         top: 0;
         left: 0;
         z-index: 2;
+        background-color: transparent;
     }
 
     .navigation-control {
@@ -193,15 +192,23 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
+        z-index: 4;
     }
 
     .logo--header {
         order: 2;
         transform: rotate(270deg);
     }
-    .nav-list--show{
-        right: 200px;
+
+    .nav-list {
+        padding-top: 50px;
+        width: 768px;
+        top: 0;
+    }
+
+    .nav-list--show {
+        left: 0;
+        padding-left: 250px;
     }
 
 }

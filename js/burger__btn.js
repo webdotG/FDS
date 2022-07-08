@@ -10,7 +10,7 @@ let navigation = document.querySelector(".navigation");
 
 navBtn.addEventListener('click', function () {
     navList.classList.toggle('nav-list--show');
-    header.classList.toggle('background--black');
+    //header.classList.toggle('background--black');
     headerText.classList.toggle('visibility-hidden');
-    navigation.classList.toggle('background--black');
+    //navigation.classList.toggle('background--black');
 })
