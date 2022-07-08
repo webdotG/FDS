@@ -8,9 +8,15 @@
     }
 
     .logo--header {
+        display: block;
+        width: 40px;
+        height: 55px;
         padding-top: 20px;
         padding-left: 16px;
         margin-bottom: 30px;
+        background-image: url("../img/logo__mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .navigation {
@@ -220,7 +226,7 @@
 
 /*----------------------------HEADER STYLE min-width 1200px----------------------------*/
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 
     .margin-auto {
         width: 1200px;
@@ -228,4 +234,4 @@
     }
 
 
-}
+}*/
