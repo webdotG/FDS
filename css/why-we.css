@@ -69,6 +69,8 @@
     }
 
     .why-we__tablet-wrapper {
+        padding-left: 48px;
+        padding-right: 48px;
         display: flex;
         padding-top: 160px;
     }

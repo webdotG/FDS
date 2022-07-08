@@ -111,11 +111,22 @@
     .header-text {
         padding-right: 16px;
         padding-left: 16px;
-        width: 288px;
+        min-width: 288px;
     }
 
 }
-
+.header-text__title{
+    max-width: 520px;
+}
+.header-text__title:first-child{
+    padding-bottom: 25px;
+}
+.header-text__paragraph{
+    max-width: 360px;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
 /*-----------------------------NAV BTN STYLE----------------------------*/
 
 .nav-btn {
