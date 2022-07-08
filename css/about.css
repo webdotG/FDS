@@ -60,3 +60,28 @@
 .about-list__developer .about-list__text-wrapper {
     order: 3;
 }
+
+
+/*----------------------------ABOUT STYLE min-width 768----------------------------*/
+
+@media (min-width: 768px) {
+
+    .margin-auto {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+/*----------------------------ABOUT min-width 1200px----------------------------*/
+
+@media (min-width:1200px) {
+
+    .margin-auto {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}

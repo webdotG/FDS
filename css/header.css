@@ -6,16 +6,13 @@
         height: 500px;
         padding-left: 16px;
         padding-right: 16px;
-     /*   background-image: url("../img/header__back--mobile.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        */
-      background-color: #0D0D0D;
+        /*   background-image: url("../img/header__back--mobile.jpg");
+           background-repeat: no-repeat;
+           background-position: center;
+           */
+        background-color: #0D0D0D;
     }
 
-    .background-black {
-        background: black;
-    }
 
     .logo--header {
         padding-top: 20px;
@@ -38,7 +35,7 @@
         position: absolute;
         top: 84px;
         right: -338px;
-        background: black;
+        background:  #0D0D0D;
         transition: right ease 0.3s;
         visibility: hidden;
     }
@@ -151,7 +148,7 @@
     color: #D9D9D9;
 }
 
-.header-text__paragraph{
+.header-text__paragraph {
     color: #EBF5FC;
 }
 
@@ -160,11 +157,63 @@
 }
 
 
-/*----------------------------NAVIGATION STYLE min-width 768px----------------------------*/
+/*----------------------------HEADER STYLE min-width 768px----------------------------*/
 
-@media (min-width:768px) {
-    header{
-        min-width: 768px;
-        background-image: url("../img/header__back--tablet.jpg");
+@media (min-width: 768px) {
+
+    .margin-auto {
+        width: 768px;
+        margin: 0 auto;
     }
+
+    header {
+        min-width: 768px;
+        height: 810px;
+        position: relative;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    .navigation {
+        width: 768px;
+        height: 585px;
+        padding-top: 30px;
+        padding-left: 16px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .navigation-control {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .logo--header {
+        order: 2;
+        transform: rotate(270deg);
+    }
+    .nav-list--show{
+        right: 200px;
+    }
+
+}
+
+/*----------------------------HEADER STYLE min-width 1200px----------------------------*/
+
+@media (min-width: 1200px) {
+
+    .margin-auto {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+
 }

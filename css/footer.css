@@ -1,7 +1,9 @@
+/*----------------------------FOOTER min-width 320----------------------------*/
+
 footer {
     min-width: 320px;
     margin-top: -5px;
-    background-color: #0D0D0D;
+    background-color:  #0D0D0D;
 }
 
 /*
@@ -61,4 +63,28 @@ footer {
 
 .footer-contacts__link {
     color: #D9D9D9;
+}
+
+
+/*----------------------------FOOTER min-width 768----------------------------*/
+
+@media (min-width: 768px) {
+
+    .margin-auto {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+/*----------------------------FOOTER min-width 1200px----------------------------*/
+
+@media (min-width:1200px) {
+
+    .margin-auto {
+        width: 1200px;
+        margin: 0 auto;
+    }
 }

@@ -1,6 +1,8 @@
+/*----------------------------CONTACT-US min-width 320----------------------------*/
+
 .contact-us {
   min-width: 320px;
-    background-color: #0D0D0D;
+    background-color:  #0D0D0D;
 }
 
 .contact-us__list {
@@ -168,4 +170,27 @@ input[type="file"]::-moz-placeholder {
 }
 .contact-us__paragraph-agree{
     margin: 0;
+}
+
+/*----------------------------CONTACT-US min-width 768----------------------------*/
+
+@media (min-width: 768px) {
+
+    .margin-auto {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+/*----------------------------CONTACT-US min-width 1200px----------------------------*/
+
+@media (min-width:1200px) {
+
+    .margin-auto {
+        width: 1200px;
+        margin: 0 auto;
+    }
 }

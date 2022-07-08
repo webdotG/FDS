@@ -2,7 +2,7 @@
 
 .case {
     min-width: 320px;
-    background-color: #0D0D0D;
+    background-color:  #0D0D0D;
 }
 
 .case__title {
@@ -77,7 +77,28 @@
     border-radius: 200px;
 }
 
-/*.case__watch-more{
-    color: #ffffff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
-}*/
+
+
+/*----------------------------CASE min-width 768----------------------------*/
+
+@media (min-width: 768px) {
+
+    .margin-auto {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+/*----------------------------CASE min-width 1200px----------------------------*/
+
+@media (min-width:1200px) {
+
+    .margin-auto {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
