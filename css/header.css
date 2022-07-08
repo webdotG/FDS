@@ -34,16 +34,16 @@
         padding-left: 14px;
         position: absolute;
         top: 84px;
-        right: -338px;
+        left: -338px;
         background: #0D0D0D;
-        transition: right ease 0.3s;
+        transition: left ease 0.5s;
         visibility: hidden;
     }
 
     .nav-list--show {
         /*flex-basis: 100%;*/
         visibility: visible;
-        right: -2px;
+        left: 0;
     }
 
     .nav-list__item {
