@@ -16,7 +16,7 @@
     height: 496px;
     position: absolute;
     top: -260px;
-    right: -16px;
+    right: 0;
     background-image: url("../img/contact-us__triangle--neon.png");
     background-position: center;
     background-repeat: no-repeat;
