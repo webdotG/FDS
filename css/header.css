@@ -45,7 +45,7 @@
         /*flex-basis: 100%;*/
         visibility: visible;
         left: 0;
-
+        width: 100%;
     }
 
     .nav-list__item {
@@ -115,18 +115,22 @@
     }
 
 }
-.header-text__title{
+
+.header-text__title {
     max-width: 520px;
 }
-.header-text__title:first-child{
+
+.header-text__title:first-child {
     padding-bottom: 25px;
 }
-.header-text__paragraph{
+
+.header-text__paragraph {
     max-width: 360px;
     margin: 0;
     padding-bottom: 25px;
     padding-top: 25px;
 }
+
 /*-----------------------------NAV BTN STYLE----------------------------*/
 
 .nav-btn {
@@ -209,7 +213,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 2;
+        z-index: 10;
         background-color: transparent;
     }
 
@@ -247,7 +251,8 @@
         font-size: 10px;
         color: #D9D9D9;
     }
-    .header-text__link{
+
+    .header-text__link {
         display: block;
         width: 233px;
         height: 30px;

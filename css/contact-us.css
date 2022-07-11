@@ -1,8 +1,8 @@
 /*----------------------------CONTACT-US min-width 320----------------------------*/
 
 .contact-us {
-  min-width: 320px;
-    background-color:  #0D0D0D;
+    min-width: 320px;
+    background-color: #0D0D0D;
 }
 
 .contact-us__list {
@@ -17,7 +17,7 @@
     position: absolute;
     top: -260px;
     right: 0;
-    background-image: url("../img/contact-us__triangle--neon.png");
+    background-image: url("../img/contact-us__triangle--mobile.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ input[type="file"]::-moz-placeholder {
     color: #858585;
 }
 
-.contact-us__input--submit{
+.contact-us__input--submit {
     width: 280px;
     height: 50px;
     color: #EBF5FC;
@@ -168,7 +168,8 @@ input[type="file"]::-moz-placeholder {
     box-shadow: 0px 0px 10px rgba(52, 37, 225, 0.5);
     background-color: transparent;
 }
-.contact-us__paragraph-agree{
+
+.contact-us__paragraph-agree {
     margin: 0;
 }
 
@@ -181,13 +182,60 @@ input[type="file"]::-moz-placeholder {
         margin: 0 auto;
     }
 
+    .contact-us {
+        padding-top: 160px;
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .contact-us__list::before {
+        display: none;
+    }
+
+    .contact-us::before {
+        content: "";
+        display: block;
+        width: 620px;
+        height: 606px;
+        position: absolute;
+        right: -50px;
+        top: -200px;
+        background-image: url("../img/contact-us__triangle--tablet.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+
+
+    .contact-us__tablet-wrapper {
+        padding-left: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .contact-us__text-wrapper {
+        width: 318px;
+    }
+
+    .contact-us__form {
+        width: 310px;
+        margin-left: 50px;
+        padding-top: 84px;
+    }
+
+    .contact-us__paragraph-agree {
+        text-align: center;
+    }
 
 }
 
 
 /*----------------------------CONTACT-US min-width 1200px----------------------------*/
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
 
     .margin-auto {
         width: 1200px;
