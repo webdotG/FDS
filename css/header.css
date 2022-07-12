@@ -131,6 +131,32 @@
     padding-top: 25px;
 }
 
+.header-text__link{
+    width: 204px;
+    height: 30px;
+    display: block;
+    font-size: 22px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #EBF5FC;
+    border-bottom: 1px solid #3425E1;
+    text-shadow: 0px 0px 10px #3425E1;
+    position: relative;
+}
+
+.header-text__link::after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url("../img/icon__arrow-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -22px;
+    top: -4px;
+}
+
 /*-----------------------------NAV BTN STYLE----------------------------*/
 
 .nav-btn {
