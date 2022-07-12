@@ -269,14 +269,21 @@
                         3х
                         вариантах!</p>
                 </div>
-                <form class="contact-us__form">
+                <form class="contact-us__form" action="#" method="post">
                     <input class="contact-us__input--name" name="name" type="text" autocomplete="on"
                            placeholder="Имя *">
                     <input class="contact-us__input--number" name="number" type="number" autocomplete="on"
                            placeholder="Телефон *">
                     <input class="contact-us__input--email" name="email" type="email" autocomplete="on"
                            placeholder="Email *">
-                    <input class="contact-us__input--file" name="file" type="file">
+                    <label id="file--label" class="contact-us__label--file" for="file--input">
+                        <div id="file--text" class="contact-us__text--file">Приложить файл (до 10 Мб)</div>
+                        <div id="file-size__wrapper">
+                            <span id="fileNum"></span><span id="fileSize"></span>
+                        </div>
+                        <input id="file--input" class="contact-us__input--file" name="file" type="file" accept="image/*"
+                               multiple>
+                    </label>
                     <input class="contact-us__input--submit" name="submit" type="submit">
                     <p class="contact-us__paragraph-agree">Нажимая на кнопку "Отправить", вы принимаете политику
                         конфиденциальности</p>
@@ -434,6 +441,7 @@
         </div>
     </div>
 </footer>
+<script src="js/main.js"></script>
 <script src="js/burger__btn.js"></script>
-<!--<script src="js/color__change.js"></script>-->
+<script src="js/color__change.js"></script>
 </body>
